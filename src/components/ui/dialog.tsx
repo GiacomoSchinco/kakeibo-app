@@ -1,3 +1,22 @@
+
+/**
+ * Esempio d'uso del componente Dialog:
+ *
+ * import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription, DialogClose } from "@/components/ui/dialog";
+ *
+ * <Dialog>
+ *   <DialogTrigger asChild>
+ *     <Button>Apri Dialog</Button>
+ *   </DialogTrigger>
+ *   <DialogContent>
+ *     <DialogTitle>Titolo</DialogTitle>
+ *     <DialogDescription>Descrizione o contenuto del dialog.</DialogDescription>
+ *     <DialogClose asChild>
+ *       <Button variant="secondary">Chiudi</Button>
+ *     </DialogClose>
+ *   </DialogContent>
+ * </Dialog>
+ */
 "use client"
 
 import * as React from "react"
