@@ -1,0 +1,1 @@
+// Costanti globali del progetto

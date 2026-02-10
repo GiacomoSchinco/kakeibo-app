@@ -1,0 +1,1 @@
+// Funzioni di utilità generali

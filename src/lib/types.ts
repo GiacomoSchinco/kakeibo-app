@@ -1,0 +1,1 @@
+// Tipi TypeScript condivisi
