@@ -66,12 +66,14 @@ export default function Transactions() {
       filtered = filtered.filter(t => t.category_id === filters.categoryId)
     }
 
-    if (filters.startDate) {
-      filtered = filtered.filter(t => t.date >= filters.startDate!)
+    const { startDate, endDate } = filters
+    
+    if (startDate) {
+      filtered = filtered.filter(t => t.date >= startDate)
     }
 
-    if (filters.endDate) {
-      filtered = filtered.filter(t => t.date <= filters.endDate!)
+    if (endDate) {
+      filtered = filtered.filter(t => t.date <= endDate)
     }
 
     setFilteredTransactions(filtered)
